@@ -17,3 +17,7 @@
 Όλες οι νησίδες μεγαλώνουν κάνοντας τη διέλευση πεζών ευκολότερη και ασφαλέστερη.
 
 Η μεγάλη αλλαγή βρίσκεται στη κάθοδο της Λ.Δημοκρατίας, στην οποια οι θέσεις στάθμευσης βρίσκονται στην αριστερή πλευρά, το οποιο οδηγεί στην μια σωστη λωριδα και κυκλοφοριακής συνοχής.
+
+---
+
+Προσομοίωση του πως δουλεύει η λύση αυτή στηη πραξη μπορεί να βρεθεί [εδω](https://github.com/keybraker/proposal-for-a-troubled-city/tree/main/%CE%97%CF%81%CE%AC%CE%BA%CE%BB%CE%B5%CE%B9%CE%BF/%CE%94%CE%B9%CE%B1%CF%83%CF%84%CE%B1%CF%85%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82/%CE%94%CE%B7%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%84%CE%AF%CE%B1%CF%82%CE%A4%CF%81%CE%B9%CE%BA%CE%BF%CF%8D%CF%80%CE%B7%CE%93%CE%B5%CF%81%CF%89%CE%BD%CF%85%CE%BD%CE%BC%CE%AC%CE%BA%CE%B7/dimokratias). Κατεβάστε τον φάκελο και φορτωστε το στο πρόγραμμα [AnyLogic](https://www.anylogic.com)
