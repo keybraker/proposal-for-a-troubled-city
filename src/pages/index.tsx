@@ -10,7 +10,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container relative mx-auto w-full max-w-6xl px-2 pb-2 xs:px-4 xs:pb-4 md:px-8 md:pb-8">
+    <div className="container relative mx-auto h-full max-w-6xl px-2 pb-2 xs:px-4 xs:pb-4 md:px-8 md:pb-8">
       <Head>
         <title>Ioannis Tsiakkas</title>
         <meta name="title" content="Ioannis Tsiakkas" />
@@ -41,52 +41,19 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col justify-center gap-4 place-self-center backdrop-blur-3xl">
-        <div>
+        <div className="flex h-full flex-col justify-between">
           <Header />
           <Email />
           <div>
             <div className="sticky inset-y-0 left-0 top-[4.4rem] z-50 mt-12 mb-2 text-center xs:top-10 xs:text-left">
-              <CategoryTitle title={"Professional Experience"} />
-            </div>
-            <div>
-              <ExperiencePage />
-            </div>
-          </div>
-          <div>
-            <div className="sticky inset-y-0 left-0 top-[4.4rem] z-50 mt-12 mb-2 text-center xs:top-10 xs:text-left">
-              <CategoryTitle title={"Notable Projects"} />
+              <CategoryTitle title={"Cities"} />
             </div>
             <div>
               <ProjectsPage />
             </div>
           </div>
-          <div>
-            <div className="sticky inset-y-0 left-0 top-[4.4rem] z-50 mt-12 mb-2 text-center xs:top-10 xs:text-left">
-              <CategoryTitle title={"Education"} />
-            </div>
-            <div>
-              <EducationPage />
-            </div>
-          </div>
-          <div>
-            <div className="sticky inset-y-0 left-0 top-[4.4rem] z-50 mt-12 mb-2 text-center xs:top-10 xs:text-left">
-              <CategoryTitle title={"Technical and Personal Skills"} />
-            </div>
-            <div>
-              <SkillPage />
-            </div>
-          </div>
           <Footer />
         </div>
-        {/* <CategoryTitle title={"Professional Experience"} />
-        <ExperiencePage />
-        <CategoryTitle title={"Technical and Personal Skills"} />
-        <SkillPage />
-        <CategoryTitle title={"Education"} />
-        <EducationPage />
-        <CategoryTitle title={"Notable Projects"} />
-        <ProjectsPage />
-        <Footer /> */}
       </main>
     </div>
   );

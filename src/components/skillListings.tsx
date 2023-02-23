@@ -1,4 +1,5 @@
 import { SkillType } from "@/types/skill";
+import Image from "next/image";
 
 function SkillListing({ skill, last }: { skill: SkillType; last: boolean }) {
   return (

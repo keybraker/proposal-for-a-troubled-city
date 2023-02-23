@@ -1,7 +1,13 @@
 import Image from "next/image";
 import heraklion_logo from "@static/heraklion_logo.png";
 
-const repo = "https://github.com/keybraker/keybraker.github.io";
+const date = new Date(); // Replace with your date object
+const options = {
+  year: "numeric",
+} as Intl.DateTimeFormatOptions;
+const formattedDate = date.toLocaleString("en-US", options);
+
+const repo = "https://github.com/keybraker/proposal-for-a-troubled-city";
 
 export default function Footer() {
   return (
@@ -11,7 +17,7 @@ export default function Footer() {
           <Image src={heraklion_logo} alt="The source of truth" width={24} />
           <a rel="noopener noreferrer" target="_blank" href={repo}>
             <span className="hover:underline">
-              Made with NextJS and Tailwind, take a look
+              Proposals for a troubled city - {formattedDate}
             </span>
           </a>
         </span>

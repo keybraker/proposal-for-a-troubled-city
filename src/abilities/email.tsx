@@ -23,7 +23,7 @@ export default function Email() {
   return (
     <section className="my-6 rounded-[10px] border border-black bg-gray-200 p-2.5 shadow-xl">
       {/* <HeadScene /> */}
-      <div className="flex-start flex justify-between">Manifesto</div>
+      <div className="flex-start flex justify-between font-bold">Manifesto</div>
 
       <div className="my-1 border border-dashed border-black"></div>
 
